@@ -1,0 +1,22 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*COLORES*/
+$color-rosamenu: #ffc0cb;
+$color-rosaletra: #F08D8F;
+$color-violeta: #2f1c3a;
+$color-turqueza: #95d0cc;
+$color-lila: #7489c4;
+$rosa-body: #FCE9E8;
+$color-verdeclaro: #80BAB4;
+$color-amarillo: #FCBD5B;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}

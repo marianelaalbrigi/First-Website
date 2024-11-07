@@ -1,0 +1,464 @@
+.items-principal {
+    margin-top: 2rem;
+    width: 60%;
+    margin: 5rem auto;
+    text-align: center;
+        
+    .item01-titleprincipal {
+        display: inline-block;
+        background-color: whitesmoke;
+        font-size: 4rem;
+        color: $color-violeta;
+        margin-bottom: 4rem;    
+    }
+
+    .item02-titleprincipal {
+        font-size: 1.5rem;
+        color: $color-violeta;
+        line-height: 2.3rem;
+
+        span {
+            background-color: white;
+        }
+    }
+}
+
+.container-fähigkeiten {
+    text-align: center;
+    margin-top: 8rem;
+} 
+
+.grid-subtitle01 {
+    display: grid;
+    grid-template-columns: 35% 42%;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 8rem;
+    height: 10rem;
+    justify-content: center;
+
+    .subtitle01-itemh2 {
+                                  
+        .item01 {
+            grid-column: 1/3;
+            grid-row: 1/2;
+            font-size: 2.5rem;
+            margin-bottom: 0.25rem;
+            color: $color-verdeclaro;            
+        }
+    
+        .item02 {
+            grid-column: 1/3;
+            grid-row: 2/3;
+            font-size: 2.5rem;
+            margin-bottom: 0.25rem;
+            color: $color-lila; 
+        }
+    
+        .item03 {
+            grid-column: 1/3;
+            grid-row: 3/4;
+            font-size: 2.5rem;
+            color: $color-lila;   
+        }
+    }
+        
+    .subtitle01-itemh3 {
+        grid-column: 2/3;  
+        grid-row: 1/4;
+        font-size: 1.5rem; 
+    }
+}
+
+.section-cards {
+    /* border: 1PX SOLID red; */
+    width: 75vw;
+    margin: auto;
+    border: 1px splid red;
+    
+    .grid-cards {
+        /* border: 1PX SOLID green; */
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: center;
+        gap: 7rem;
+        margin: 8rem 0 4rem 0;
+        
+        .card01-items {
+            grid-column: 1/2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $color-verdeclaro; 
+            border-radius: 1.5rem;
+            width: 20rem;
+            height: 30rem;
+            row-gap: 2rem;
+            
+                          
+    
+        .card01-item01 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: $color-verdeclaro;
+            width: 10rem;
+            background-color: whitesmoke;
+            border-radius: 1.2rem;
+            margin-top: 2rem;
+            
+            
+        }
+    
+        .card01-item02 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1rem;
+            color: black;
+            width: 14rem;
+            height: 4.5rem;
+            background-color: whitesmoke;
+            border-radius: 0.5rem;
+            
+            
+            .hour {
+                color: $color-verdeclaro;
+                margin-top: 0.5rem;
+            }
+        }
+    
+        .card01-item03 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1rem;
+            color: black;
+            width: 14rem;
+            height: 4.5rem;
+            background-color: whitesmoke;
+            border-radius: 0.5rem;
+            
+            .hour {
+                color: $color-verdeclaro;
+                margin-top: 0.5rem;
+            }
+        }
+    
+        .card01-item04 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1rem;
+            color: black;
+            width: 14rem;
+            height: 4.5rem;
+            background-color: whitesmoke;
+            border-radius: 0.5rem;
+            
+            .hour {
+                color: $color-verdeclaro;
+                margin-top: 0.5rem;
+            }         
+        }
+    
+            a {
+                display: flex;
+                flex-direction: column;
+                 align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 1rem;
+                color: black;
+                width: 11rem;
+                height: 2rem;         
+                border-radius: 0.5rem;            
+            }               
+        }
+
+        .card02-items {
+            grid-column: 2/3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $color-amarillo; 
+            border-radius: 1.5rem;
+            width: 20rem;
+            height: 30rem;
+            row-gap: 2rem;
+           
+
+            .card02-item01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 2.5rem;
+                color: $color-amarillo;
+                width: 10rem;
+                background-color: whitesmoke;
+                border-radius: 1.2rem;
+                margin-top: 2rem;
+            }
+
+            .card02-item02 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 1rem;
+                color: black;
+                width: 14rem;
+                height: 4.5rem;
+                background-color: whitesmoke;
+                border-radius: 0.5rem;
+        
+                .hour {
+                    color: $color-amarillo;
+                    margin-top: 0.5rem;
+                }
+            }
+
+            .card02-item03 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 1rem;
+                color: black;
+                width: 14rem;
+                height: 4.5rem;
+                background-color: whitesmoke;
+                border-radius: 0.5rem;
+        
+                .hour {
+                    color: $color-amarillo;
+                    margin-top: 0.5rem;
+                }
+            }
+
+            .card02-item04 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 1rem;
+                color: black;
+                width: 14rem;
+                height: 4.5rem;
+                background-color: whitesmoke;
+                border-radius: 0.5rem;
+        
+                .hour {
+                    color: $color-amarillo;
+                    margin-top: 0.5rem;
+                }         
+            }
+
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 1rem;
+                color: black;
+                width: 11rem;
+                height: 2rem;         
+                border-radius: 0.5rem;            
+            }               
+        }
+
+        .card03-items {
+            grid-column: 3/4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $color-lila; 
+            border-radius: 1.5rem;
+            width: 20rem;
+            height: 30rem;
+            row-gap: 2rem;
+               
+    
+            .card03-item01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 2.5rem;
+                color: $color-lila;
+                width: 10rem;
+                background-color: whitesmoke;
+                border-radius: 1.2rem;
+                margin-top: 2rem;
+            }
+    
+            .card03-item02 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 1rem;
+                color: black;
+                width: 14rem;
+                height: 4.5rem;
+                background-color: whitesmoke;
+                border-radius: 0.5rem;
+            
+                .hour {
+                    color: $color-lila;
+                    margin-top: 0.5rem;
+                }
+            }
+    
+            .card03-item03 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 1rem;
+                color: black;
+                width: 14rem;
+                height: 4.5rem;
+                background-color: whitesmoke;
+                border-radius: 0.5rem;
+            
+                .hour {
+                    color: $color-lila;
+                    margin-top: 0.5rem;
+                }
+            }
+    
+            .card03-item04 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 1rem;
+                color: black;
+                width: 14rem;
+                height: 4.5rem;
+                background-color: whitesmoke;
+                border-radius: 0.5rem;
+            
+                .hour {
+                    color: $color-lila;
+                    margin-top: 0.5rem;
+                }         
+            }
+    
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 1rem;
+                color: black;
+                width: 11rem;
+                height: 2rem;         
+                border-radius: 0.5rem;            
+            }               
+        }
+    }
+}
+
+ .reviews-seccion {
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+               
+    .reviews-container {
+        width: 65rem;
+        display: flex;
+        height: 18rem;
+        align-items: center; 
+        /* border: 1px solid violet;  */
+        
+        .mother-image {
+            background-image: url(../../../src/img/unsereprojekt/foto-vater.svg);
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 11rem;
+            height: 20vh;
+            width: 55vh;
+            /*border: 1px solid red; */
+        }
+                
+        .rewiews-paragraph { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 3rem 0 3rem;
+            /* border: 1px solid red;  */
+
+            .paragraph {
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin: 2.5rem 0 1.5rem 0;
+            }
+                  
+                
+            .circles {
+                background-image: url(../../../src/img/unsereprojekt/3points.svg);
+                background-repeat: no-repeat;
+                background-size: 3.5rem;
+                height: 2rem;
+                width: 5rem;
+                /* border: 1px solid green;  */
+            } 
+        }        
+    }    
+    
+    .reviews-title {  
+        display: grid;
+        grid-template-rows: 10% 10% 10%;
+        gap: 2rem;
+        width: 30rem;
+        height: 10rem;
+        text-align: right;
+        /* border: 1px solid black; */
+        
+
+        .reviews-title-item01 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: $color-rosaletra;
+        }
+
+        .reviews-title-item02 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: $color-rosaletra;
+        }
+
+        .reviews-title-item03 {
+            font-size: 3rem;
+            font-weight: 700;
+                color: $color-lila;
+        }
+    } 
+    
+} 
+
+

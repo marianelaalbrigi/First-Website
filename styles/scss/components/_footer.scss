@@ -1,0 +1,116 @@
+.footer-nav {
+    background-color: $color-lila;
+    
+    .footer-items {
+        display: grid;
+        grid-template-columns: 10% 90%;
+        align-items: center;
+        margin: 0 2rem 0 2rem;
+        height: 18vh;
+        width: 100vw; 
+        
+
+        .footer-logo {
+            grid-column: 1/2;
+            
+            img {
+                width: 14rem;
+            }
+        }
+
+        .footer-partleft {
+            align-items: center;
+            grid-column: 2/3;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            color: $color-violeta;
+            text-align: center;
+            font-size: 1.1rem;
+            
+
+            .footer-item01 {
+                grid-column: 1/2;
+                display: grid;
+                gap: 0.5rem;
+
+                .footer-item01-a {
+                    color: $color-violeta;
+                }
+            }
+            
+            .footer-item02 {
+                grid-column: 2/3;
+                display: grid;
+                gap: 0.5rem;
+
+                .footer-item02-a {
+                    color: $color-violeta;
+                }
+            }
+
+            .footer-item03 {
+                grid-column: 3/4;
+                display: grid;
+                gap: 0.5rem;
+
+                .footer-item03-a {
+                    color: $color-violeta;
+                }
+            }
+
+            .footer-item04 {
+                grid-column: 4/5;
+                display: grid;
+                gap: 0.5rem;
+
+                .footer-item04-a {
+                    color: $color-violeta;  
+                }
+
+                .footer-item04-links {
+                    
+                    .footer-item04-b {
+                        img {
+                            height: 2rem;
+                            width: 2rem;
+                            margin-right: 1.5rem;
+                        }                    
+                    }
+
+                    .footer-item04-c {
+                        img {
+                            height: 2rem;
+                            width: 2rem; 
+                                                      
+                        }            
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-end {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-lila;
+    font-size: 0.9rem;
+    color: $color-violeta;
+    height: 5vh;
+    width: 100vw;
+    
+    p {
+        font-weight: 600;
+        margin-left: 2rem;
+
+    }
+
+    .footer-end-links {
+        display: flex;
+        gap: 2rem;
+        margin-right: 2rem;
+
+    }
+}
