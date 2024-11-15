@@ -653,7 +653,6 @@ main .hero-container .background-container .hero-pinkboton menu-container label 
   box-sizing: border-box;
 }
 .section-cards .grid-cards {
-  border: 1px solid violet;
   width: clamp(20rem, 80vw, 100rem);
   height: 50h;
   display: flex;
