@@ -88,7 +88,6 @@ header {
 }
 
 @media (max-width: 1000px) and (min-width: 391px) {
-
     header {
         height: 5rem;
 
@@ -138,7 +137,6 @@ header {
 }  
 
 @media (max-width: 390px) and (min-width: 361px) {
-
     header {
         height: 4.5rem;
 
@@ -154,8 +152,7 @@ header {
         
             .menu-label {
                 display: block;
-                cursor: pointer;
-                
+                cursor: pointer; 
             }
 
             .menu-input:checked + .menu-ul {
@@ -189,7 +186,6 @@ header {
 }    
 
 @media (max-width: 360px) and (min-width: 300px){
-
     header {
         height: 4.3rem;
         width: 100vw;
@@ -201,7 +197,6 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
-
        
             .menu-logo {
                    img {
@@ -212,9 +207,7 @@ header {
         
             .menu-label {
                 display: block;
-                cursor: pointer;
-                
-               
+                cursor: pointer; 
             }
 
             .menu-input:checked + .menu-ul {

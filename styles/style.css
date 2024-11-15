@@ -642,14 +642,12 @@ main .hero-container .background-container .hero-pinkboton menu-container label 
   color: #7489c4;
 }
 .subtitles .grid-subtitle01 .subtitle01-itemh3 {
-  border: 1px solid rgb(255, 55, 55);
   width: auto;
   box-sizing: border-box;
   font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .section-cards {
-  border: 1PX SOLID red;
   margin: 3rem auto 4rem auto;
   width: clamp(20rem, 80vw, 100rem);
   box-sizing: border-box;

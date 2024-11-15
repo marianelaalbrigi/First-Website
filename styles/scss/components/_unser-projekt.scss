@@ -69,7 +69,6 @@
         }
             
         .subtitle01-itemh3 {
-            border: 1px solid rgb(255, 55, 55);
             width: auto; 
             box-sizing: border-box;
             font-size: clamp(1rem, 2vw, 1.5rem);
@@ -78,7 +77,6 @@
 }
 
 .section-cards {
-    border: 1PX SOLID red;
     margin: 3rem auto 4rem auto; 
     width: clamp(20rem, 80vw, 100rem);
     box-sizing: border-box;
@@ -426,7 +424,6 @@
             .paragraph {
                 font-size: clamp(0.8rem, 1.5vw, 1.5rem);
                 font-weight: 600;
-            
             }        
                 
             .circles {
@@ -465,8 +462,7 @@
             font-weight: 700;
             color: $color-lila;
         }
-    } 
-    
+    }    
 } 
 
 @media (max-width: 899px) and (min-width: 300px) {
