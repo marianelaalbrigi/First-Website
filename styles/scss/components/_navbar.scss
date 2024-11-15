@@ -6,15 +6,18 @@ body {
 
 header {
     height: 5rem;
+    width: 100vw;
     background-color: $color-rosamenu;
+
 
     .navbar-menu {
         height: 5rem;
         display: flex;
-        width: 97%;
-        margin: 0 auto;
+        width: 100vw;
+        padding: clamp(20px, 10vw, 40px);
         justify-content: space-between;
         align-items: center;
+        box-sizing: border-box;
 
         .menu-logo {
             
@@ -49,10 +52,9 @@ header {
     }
 }
 
-@media (max-width: 1050px) and (min-width: 1001px) 
-{
+@media (max-width: 1050px) and (min-width: 1001px) {
      .navbar-menu {
-        width: 95%;
+        width: 100vw;
             
         .menu-logo {
             img {
@@ -85,64 +87,13 @@ header {
     }
 }
 
-
-/* @media (max-width: 1000px) and (min-width: 391px) {
-        
-    .navbar-menu {
-        width: 100wh;
-                                    
-        .menu-logo {
-            img {
-                width: 11rem; 
-                }
-        }
-            
-        .menu-label {
-            display: block;
-            cursor: pointer;
-            
-            img {
-                width: 2.8rem;
-                }
-        }
-        
-        .menu-input:checked + .menu-ul {
-            clip-path: circle(100% at center);
-        }
-        
-        .menu-ul {
-            position: fixed;
-            top: 93px;
-            bottom: 0;
-            width: 100%;
-            background-color: #97a7ce;
-            left: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            clip-path: circle(0 at center);
-            transition: clip-path 1s ease-in-out;
-            padding-top: 7rem;
-            gap: 5rem;
-                            
-            .menu-item {
-                a {
-                    font-weight: 600;
-                    font-size: 2rem;
-                }
-            }
-        }
-    }
-} */
-
-
 @media (max-width: 1000px) and (min-width: 391px) {
 
     header {
         height: 5rem;
 
         .navbar-menu {
-            width: 95%;
+            width: 100vw;
             height: 5rem;
                 
             .menu-logo {
@@ -192,7 +143,7 @@ header {
         height: 4.5rem;
 
         .navbar-menu {
-            width: 87%;
+            width: 100vw;
             height: 4.5rem;
                 
             .menu-logo {
@@ -204,6 +155,7 @@ header {
             .menu-label {
                 display: block;
                 cursor: pointer;
+                
             }
 
             .menu-input:checked + .menu-ul {
@@ -236,26 +188,33 @@ header {
     }    
 }    
 
-@media (max-width: 360px) {
+@media (max-width: 360px) and (min-width: 300px){
 
     header {
         height: 4.3rem;
+        width: 100vw;
     
         .navbar-menu {
-            width: 75%;
+            width: 100vw;
             height: 4.3rem;
-            margin: auto 1.6rem auto 1.6rem;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
        
             .menu-logo {
                    img {
                     width: 8rem; 
-                    margin-right: 9.2rem;
+                    margin-right: 7rem;
                 }
             }
         
             .menu-label {
                 display: block;
                 cursor: pointer;
+                
+               
             }
 
             .menu-input:checked + .menu-ul {

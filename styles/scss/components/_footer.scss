@@ -114,3 +114,165 @@
 
     }
 }
+
+@media (max-width: 1600px) and (min-width: 1300px) {
+
+    .footer-container {
+        height: 20vh;
+        
+        .footer-partleft {
+            margin: 0 5rem 0 5rem;
+        }        
+    }
+}
+
+@media (max-width: 1299px) and (min-width: 1000px) {
+
+    .footer-container {
+        height: 48vh;
+        
+        .footer-items {
+            
+            display: grid;
+            grid-template-columns: 20% 80%;
+            grid-template-rows: 20% 30% 50%; 
+            
+
+            .footer-logo {
+                margin-top: 7rem;
+                grid-row: 1/2;
+            }
+
+            .footer-partleft {
+                margin-top: 7rem;
+                grid-row: 2/4;
+                grid-template-columns: 30% 30% 30%;
+                grid-template-rows: 50% 50%;
+                row-gap: 3rem;
+           
+                .footer-item01 {
+                    grid-column: 1/2;
+                    grid-row: 1/2; 
+                }
+
+                .footer-item02 {
+                    grid-column: 2/3;
+                    grid-row: 1/2;               
+                }
+
+                .footer-item03 {
+                    grid-column: 3/4;
+                    grid-row: 1/2;
+                }
+
+                .footer-item04 {
+                    grid-column: 1/4;
+                    grid-row: 2/3;
+                }
+            }   
+        }
+    }
+    
+}
+
+@media (max-width: 999px) and (min-width: 601px) {
+
+    .footer-nav {
+        height: 45vh;
+
+        .footer-container {     
+            
+            .footer-items {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                margin: 0 0 0 2rem;
+                
+
+                .footer-logo {
+                    margin-top: 1rem;              
+                }
+
+                .footer-partleft {
+                    align-items: normal;
+                    text-align: left;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: 50% 50%;
+                    row-gap: 2rem;
+                    column-gap: 5rem;
+                    margin-top: 1rem;
+            
+                    .footer-item01 {
+                        grid-column: 1/2;
+                        grid-row: 1/2; 
+                    }
+
+                    .footer-item02 {
+                        grid-column: 2/3;
+                        grid-row: 1/2;               
+                    }
+
+                    .footer-item03 {
+                        grid-column: 1/2;
+                        grid-row: 2/3;
+                    }
+
+                    .footer-item04 {
+                        grid-column: 2/3;
+                        grid-row: 2/3;
+                    }
+                }   
+            }
+        } 
+    } 
+
+    .footer-end {
+        height: 9vh;
+        display: block;
+        padding: 1.5rem 0 1rem 0;
+        gap: 0.2rem;
+        
+        .footer-end-links { 
+            margin: 0 0 0 2rem;    
+        }
+    }
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+    .footer-nav {
+        height: 65vh; 
+
+        .footer-container {
+            
+                
+            .footer-items {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                padding: 2rem 1rem 0rem 1rem;
+            
+                .footer-partleft {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    row-gap: 2.5rem;
+                    text-align: left;   
+                                                  
+                }   
+            }
+        }   
+    } 
+    
+    .footer-end {
+        display: block;       
+        height: 30vh;
+        padding: 2rem 0 1rem 1rem;
+        gap: 0.2rem;
+
+        .footer-end-links {
+            flex-direction: column;
+            margin: 1rem 0 0rem 2rem; 
+            gap: 1rem;   
+        }    
+    }
+}
