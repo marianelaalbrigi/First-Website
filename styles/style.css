@@ -1175,7 +1175,7 @@ main .hero-container .background-container .hero-pinkboton menu-container label 
 }
 @media (max-width: 1299px) and (min-width: 1000px) {
   .footer-container {
-    height: 48vh;
+    height: 40vh;
   }
   .footer-container .footer-items {
     display: grid;
@@ -1189,9 +1189,9 @@ main .hero-container .background-container .hero-pinkboton menu-container label 
   .footer-container .footer-items .footer-partleft {
     margin-top: 7rem;
     grid-row: 2/4;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    row-gap: 3rem;
+    row-gap: 2rem;
   }
   .footer-container .footer-items .footer-partleft .footer-item01 {
     grid-column: 1/2;
@@ -1202,17 +1202,17 @@ main .hero-container .background-container .hero-pinkboton menu-container label 
     grid-row: 1/2;
   }
   .footer-container .footer-items .footer-partleft .footer-item03 {
-    grid-column: 3/4;
-    grid-row: 1/2;
+    grid-column: 1/2;
+    grid-row: 2/3;
   }
   .footer-container .footer-items .footer-partleft .footer-item04 {
-    grid-column: 1/4;
+    grid-column: 2/3;
     grid-row: 2/3;
   }
 }
 @media (max-width: 999px) and (min-width: 601px) {
   .footer-nav {
-    height: 45vh;
+    height: 50vh;
   }
   .footer-nav .footer-container .footer-items {
     display: flex;
@@ -1261,7 +1261,7 @@ main .hero-container .background-container .hero-pinkboton menu-container label 
 }
 @media (max-width: 600px) and (min-width: 300px) {
   .footer-nav {
-    height: 65vh;
+    height: 75vh;
   }
   .footer-nav .footer-container .footer-items {
     display: flex;
